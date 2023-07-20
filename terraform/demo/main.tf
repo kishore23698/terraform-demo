@@ -16,5 +16,5 @@ module "my_ec21" {
   ami_id = "ami-0960ab670c8bb45f3"
   instance_type = "t2.micro"
   subnet_id ="${module.my_vpc1.subnet_id}"
-  key_name = "s1"
+  key_name = "spacelift"
 }
