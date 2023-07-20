@@ -3,7 +3,7 @@ variable "instance_type" {
 }
 
 variable "key_name" {
-  default = "s1"
+  default = "spacelift"
 }
 
 variable "ami_id" {}
